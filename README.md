@@ -49,9 +49,10 @@ Geography Category Script     - geography_Category.py <br>
 Database Script		            - Quering_On_Database.py  <br>
   
  ## Related Documents and Downloads
- -> For more details on how to install and CoreNLP API in NLTK, visit: https://github.com/nltk/nltk/wiki/Stanford-CoreNLP-API-in-NLTK
+ -> For more details on how to install and CoreNLP API in NLTK, visit: https://github.com/nltk/nltk/wiki/Stanford-CoreNLP-API-in-NLTK <br>
  -> Run command to start CoreNLP running: 
- ```java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer \
+ ```
+ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer \
 -preload tokenize,ssplit,pos,lemma,ner,parse,depparse \
 -status_port 9000 -port 9000 -timeout 15000 & 
 ```
