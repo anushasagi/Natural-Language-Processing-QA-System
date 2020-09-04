@@ -11,8 +11,12 @@ This SQL statement is then used to query the respective database to obtain the a
 * SQLite
 
 ```
-- nltk.download('wordnet')
 - from nltk.parse import CoreNLPParser (Runs on localhost:9000)
+- pos_tagger = CoreNLPParser(url='http://localhost:9000', tagtype='pos')
+- nltk.download('wordnet')
+- from nltk.corpus import wordnet
+- from nltk.tree import *
+- import sqlite3
 ```
 
 ## How to Run the project
