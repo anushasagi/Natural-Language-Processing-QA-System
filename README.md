@@ -23,8 +23,7 @@ The output of the project is written to a textfile named "output.txt"
 
 2. WordNet:
 This project uses WordNet for categorizing the questions.
-Some important commands to run before executing:
->> nltk.download('wordnet')
+Some important commands to run before executing: nltk.download('wordnet')
 
 3. Stanford/CoreNLP:
 This project uses CoreNLPPaser integrated into nltk
