@@ -1,7 +1,7 @@
 # Question - Answering System
-A Q&A system which can answer various type of questions and provide answers by querying the three databases - Music, Movies and Geography.
-The input question is categorized into the respective category and an SQL statement is then framed my parsing the question in top-down approach. 
-This SQL statement is then used to query the respective database to obtain the answer.
+A Q&A system which can answer various type of questions and provide answers by querying the three databases - Music, Movies and Geography. <br>
+The input question is categorized into the respective category and an SQL statement is then framed my parsing the question in top-down approach. <br> 
+This SQL statement is then used to query the respective database to obtain the answer. <br>
 
 ## Install Dependencies
 
